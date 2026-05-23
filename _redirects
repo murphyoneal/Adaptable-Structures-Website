@@ -1,0 +1,20 @@
+# Cloudflare Pages redirects
+# Format: source destination [status]
+# 301 = permanent. Use for old URLs that have moved.
+
+# Old slugs with curly apostrophes redirect to clean slugs
+/news/f/jean-nouvel%E2%80%99s-simple-decade-of-innovation /news/f/jean-nouvels-simple-decade-of-innovation/ 301
+/news/f/jean-nouvel's-simple-decade-of-innovation /news/f/jean-nouvels-simple-decade-of-innovation/ 301
+/news/f/sparknz-innovator-of-the-year-semi-finalist-murphy-o%E2%80%99neal /news/f/sparknz-innovator-of-the-year-semi-finalist-murphy-oneal/ 301
+/news/f/sparknz-innovator-of-the-year-semi-finalist-murphy-o'neal /news/f/sparknz-innovator-of-the-year-semi-finalist-murphy-oneal/ 301
+
+# Old "Contact Us" link → new path
+/contact-us /contact/ 301
+/contact-us/ /contact/ 301
+
+# Old anyplace ecosystem children — point to spoke domains
+/anyplace-living https://anyplaceliving.com 301
+/anyplace-interiors https://anyplaceinteriors.com 301
+/anyplace-relief https://anyplacerelief.com 301
+/anyplace-industrial https://anyplaceindustrial.com 301
+/anyplace-commercial https://anyplacecommercial.com 301
