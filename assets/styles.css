@@ -60,15 +60,23 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--white);
   border-bottom: none;
   letter-spacing: -0.01em;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
 }
 .brand:hover { border-bottom: none; color: var(--white); }
 .brand-mark {
   display: inline-block;
-  width: 9px; height: 9px;
-  background: var(--accent);
-  margin-right: 10px;
+  width: 32px; height: 32px;
+  background-image: url('/assets/images/logo-anyplace.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   vertical-align: middle;
-  transform: translateY(-2px);
+  flex-shrink: 0;
+}
+.brand-mark-large {
+  width: 64px; height: 64px;
 }
 nav.site-nav { display: flex; gap: 26px; flex-wrap: wrap; }
 nav.site-nav a {
@@ -199,8 +207,72 @@ blockquote cite {
   background: var(--ink);
   color: var(--white);
   padding: 96px 32px 80px;
+  position: relative;
+  overflow: hidden;
 }
-.hero-inner { max-width: var(--max); margin: 0 auto; }
+.hero-video {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.45;
+}
+.hero-video-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg,
+    rgba(26,26,24,0.55) 0%,
+    rgba(26,26,24,0.75) 60%,
+    rgba(26,26,24,0.92) 100%);
+  z-index: 1;
+}
+.hero-inner {
+  max-width: var(--max);
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* ----------------------------------------------------------------
+   CONTENT FIGURES (images + captions)
+   ---------------------------------------------------------------- */
+figure.module-figure {
+  margin: 40px 0;
+  text-align: center;
+}
+figure.module-figure img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+figure.module-figure.vertical img {
+  max-height: 720px;
+  width: auto;
+}
+figure.module-figure.horizontal img {
+  width: 100%;
+}
+figure.module-figure figcaption {
+  margin-top: 18px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  line-height: 1.5;
+}
+figure.module-figure figcaption em {
+  display: block;
+  font-style: normal;
+  font-size: 11px;
+  color: var(--ink-faint);
+  margin-top: 4px;
+  text-transform: none;
+  letter-spacing: 0;
+}
 .hero h1 {
   color: var(--white);
   font-size: 64px;

@@ -15,14 +15,33 @@ adaptablestructures/
 ├── news/index.html                     → /news/
 ├── news/f/{16 article slugs}/index.html
 ├── contact/index.html                  → /contact/
-├── assets/styles.css                   → shared CSS
-├── assets/images/                      → image folder (empty, populate later)
+├── assets/
+│   ├── styles.css                      → shared CSS
+│   ├── images/                         → logo, exploded views, video poster
+│   ├── video/                          → hero video (desktop + mobile)
+│   └── favicon/                        → favicon assets (multiple sizes)
+├── favicon.ico                         → root-level favicon
 ├── _redirects                          → Cloudflare Pages redirect rules
 ├── robots.txt
 └── sitemap.xml
 ```
 
-Total: 25 HTML files + 1 CSS + 3 config files.
+Total: 23 HTML files + CSS + 6 image assets + 2 video files + favicon set + 3 config files.
+
+## Asset inventory
+
+- `logo-anyplace.png` — Anyplace QR-house brand mark. Functional 2D barcode.
+  Used in header (32px), home hero, footer, and as favicon source.
+- `module-exploded-vertical.png` — full 46-part exploded view (vertical layout).
+  Used on Home and About AS as the visual proof of the DfIND output.
+- `module-exploded-horizontal.png` (and 1600px + JPG variants) — wide exploded
+  view in color, showing frame + panels. Used on Anyplace Ecosystem.
+- `video-poster.jpg` — still frame from the build animation, used as poster
+  for the hero video before playback starts.
+- `hero-desktop.mp4` (4.8MB, 1080p) and `hero-mobile.mp4` (3MB, 720p) — silent
+  looping build animation auto-playing in the home hero.
+- `favicon-*.png` and `favicon.ico` — browser tab and PWA icons in standard
+  sizes (16, 32, 48, 64, 128, 192, 512).
 
 ## What was preserved
 
