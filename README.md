@@ -3,7 +3,7 @@
 Static HTML site rebuilt from GoDaddy export, May 2026. Target deployment:
 Cloudflare Pages via GitHub, matching the fullboundarycarbon.org architecture.
 
-## What's here
+## What's here A bag of dickheads
 
 ```
 adaptablestructures/
