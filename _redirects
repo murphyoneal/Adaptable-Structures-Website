@@ -18,3 +18,21 @@
 /anyplace-relief https://anyplacerelief.com 301
 /anyplace-industrial https://anyplaceindustrial.com 301
 /anyplace-commercial https://anyplacecommercial.com 301
+
+# May 25 2026 — slug shortening to fix Windows path length limits
+/news/f/carbon-question-challenge-assumptions-in-sustainable-construction /news/f/carbon-question/ 301
+/news/f/carbon-question-challenge-assumptions-in-sustainable-construction/ /news/f/carbon-question/ 301
+/news/f/the-andes-house-reimagined-aluminum-leads-modular-innovation /news/f/andes-house-reimagined/ 301
+/news/f/the-andes-house-reimagined-aluminum-leads-modular-innovation/ /news/f/andes-house-reimagined/ 301
+/news/f/understanding-the-anyplace-revolution-building-beyond-waste /news/f/anyplace-revolution/ 301
+/news/f/understanding-the-anyplace-revolution-building-beyond-waste/ /news/f/anyplace-revolution/ 301
+/news/f/testing-anyplace-weathertight-thermal-and-built-to-perform /news/f/testing-anyplace/ 301
+/news/f/testing-anyplace-weathertight-thermal-and-built-to-perform/ /news/f/testing-anyplace/ 301
+/news/f/sparknz-innovator-of-the-year-semi-finalist-murphy-oneal /news/f/sparknz-innovator-2025/ 301
+/news/f/sparknz-innovator-of-the-year-semi-finalist-murphy-oneal/ /news/f/sparknz-innovator-2025/ 301
+/news/f/urban-development-institute-of-new-zealand-site-visit /news/f/udinz-site-visit/ 301
+/news/f/urban-development-institute-of-new-zealand-site-visit/ /news/f/udinz-site-visit/ 301
+
+# New article slug — shortened from the original I created
+/news/f/hydro-parsons-norwegian-consulate-masterclass-2026 /news/f/hydro-parsons-nyc-2026/ 301
+/news/f/hydro-parsons-norwegian-consulate-masterclass-2026/ /news/f/hydro-parsons-nyc-2026/ 301
